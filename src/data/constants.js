@@ -1,25 +1,25 @@
 let date = new Date().getTime();
 export const Bio = {
-  name: "Ashutosh C Mulki",
+  name: "Yogesh K Chikhale",
   roles: [
-    "Software Engineer",
+    "Senior Software Engineer",
     "javascript Full stack Dev"
   ],
   description:
     `Software engineer with a focus on fullstack
-    development, offering over ${Math.floor((new Date().getTime() - new Date('2020-11-01').getTime()) / (1000 * 60 * 60 * 24 * 365.25) * 10) / 10} years
+    development, offering over ${Math.floor((new Date().getTime() - new Date('2020-12-11').getTime()) / (1000 * 60 * 60 * 24 * 365.25) * 10) / 10} years
     of hands-on experience.
     Specializing in crafting scalable, maintainable,
     and high-performance solutions, I excel
     in collaborative environments, consistently
     contributing to our shared objectives.`,
-  github: "https://github.com/Ash9311",
+  github: "https://github.com/yogesh2312",
   resume:
-    "https://drive.google.com/file/d/17z3DWLzg7yLDDv8EphnmHFgREB-__LQ3/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/ashutosh-mulky-6175b615a/",
-  twitter: "https://twitter.com/AshutoshMulki1",
-  insta: "https://www.instagram.com/ash_1110/",
-  facebook: "https://www.facebook.com/ashutosh.mulky",
+    "https://drive.google.com/file/d/1GwDhoLKDrdBsQQbPdlXfPIH8phLbu1oD/view?usp=drive_link",
+  linkedin: "https://www.linkedin.com/in/yogesh-chikhale-815874290/",
+  twitter: "https://x.com/yogesh_chikhale",
+  insta: "https://www.instagram.com/yogesh_chikhale/",
+  facebook: "https://www.facebook.com/yogesh.chikhale.98",
 };
 
 export const skills = [
@@ -116,11 +116,6 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-      {
         name: "Redis",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-QVBuAjPLeWucQ46VxayttHC_igM4YCeuV9YRlBPEWA&s",
@@ -144,9 +139,9 @@ export const experiences = [
   {
     id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8tUZtlVB1nQIg5mQlqtJgbxYAF72GS8VuAf291i6dLg&s",
-    role: "Software Engineer",
+    role: "Senior Software Engineer",
     company: "Accenture",
-    date: "Nov 2020 - present",
+    date: "Dec 2020 - present",
     desc: [
       `As a key software engineer in the development team, I actively contribute to building Accenture myWizard—an integrated automation platform with AI at its core.,
       Leveraging cutting-edge technologies, myWizard has created substantial value, including a 300% surge in platform users and a remarkable 34% improvement in traceability through AI.`,
@@ -161,6 +156,7 @@ export const experiences = [
       "Postgres",
       "MongoDB",
       "Azure",
+      "karma",
       "Jasmine"
     ],
 
@@ -172,9 +168,9 @@ export const education = [
   {
     id: 0,
     img: "https://images.shiksha.com/mediadata/images/1675666458php8tkscB.jpeg",
-    school: "NMAM Institute of Technology, Nitte",
+    school: "K J Somaiya College of Engineering, Mumbai",
     date: "2016 - 2020",
-    desc: `Spent wonderful 4 years at this institute.Developed problem solving skills significantly.
+    desc: `Spent wonderful 4 years at this institute. Developed problem solving skills significantly.
     Thanks to well balanced curriculum that i got ample time to dive into different domain and explore new ventures`,
     degree: "Bachelor of Engineering - Electronics & Communition Engineering",
   }
@@ -253,22 +249,6 @@ export const projects = [
       "Redis"],
     category: "web app",
 
-  },
-  {
-    id: 3,
-    title: "RateMeNow",
-
-    description:
-      `Platform that revolutionizes how we build trust. rateMeNow
-  allows users to rate each other based on essential attributes,
-  fostering a community where credibility is paramount.`,
-    image:
-      "https://images.moneycontrol.com/static-mcnews/2018/03/star-rating.jpg?impolicy=website&width=1600&height=900",
-    tags: ["Reactjs", "nodejs", "MongoDB", "Tailwind CSS"],
-    category: "android app",
-    github: "https://github.com/Ash9311/rateMeNow-client",
-    webapp: "https://rate-me-now-client.vercel.app",
-  },
+  }
 
 ];
-
